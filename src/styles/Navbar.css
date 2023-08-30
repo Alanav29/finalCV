@@ -1,0 +1,17 @@
+.dot {
+	min-width: 25px;
+	min-height: 25px;
+	border-radius: 999px;
+	background-color: var(--principal-color);
+}
+
+.Navbar {
+	background-color: var(--principal-bg-color);
+	padding: 3rem;
+}
+
+@media (max-width: 576px) {
+	.Navbar {
+		padding: 1rem;
+	}
+}

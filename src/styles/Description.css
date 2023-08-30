@@ -1,0 +1,30 @@
+.imageProfile {
+	display: block;
+	border-radius: 999px;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.avatarImg {
+	width: 20%;
+}
+
+.description {
+	width: 50%;
+}
+
+@media (max-width: 576px) {
+	.avatarImg {
+		width: 40% !important;
+	}
+
+	.description {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 400px) {
+	.avatarImg {
+		width: 60% !important;
+	}
+}

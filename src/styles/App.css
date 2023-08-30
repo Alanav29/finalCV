@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap");
+:root {
+	font-family: "Raleway";
+	background-color: var(--principal-bg-color);
+	--principal-bg-color: rgb(242, 242, 242);
+	--principal-color: rgb(255, 204, 0);
+	--hover-icon-color: rgb(156, 153, 153);
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+.generalBg {
+	background-color: var(--principal-bg-color);
+}
+
+.underline {
+	border-bottom: 2px solid var(--principal-color);
+	margin-bottom: 0.5rem;
+}
