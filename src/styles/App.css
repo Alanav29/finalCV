@@ -20,3 +20,7 @@ body {
 	border-bottom: 2px solid var(--principal-color);
 	margin-bottom: 0.5rem;
 }
+
+.endSpace {
+	margin-bottom: 100px;
+}

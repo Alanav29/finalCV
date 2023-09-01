@@ -16,10 +16,14 @@ const Home = () => {
 		},
 		{
 			id: 2,
-			description: "Experiencia de 6 años en uso de plotter de corte",
+			description: "Creación de e-commerce con wix",
 		},
 		{
 			id: 3,
+			description: "Experiencia de 6 años en uso de plotter de corte",
+		},
+		{
+			id: 4,
 			description:
 				"Experiencia de 6 años en diseño vectorial para corte por máquina",
 		},
@@ -65,16 +69,28 @@ const Home = () => {
 		{
 			id: 1,
 			src: "https://alanav29.github.io/pokedex/",
-			description: "Pokedex",
+			description: "Pokedex / Javascript, HTML, CSS",
 		},
 		{
 			id: 2,
 			src: "https://gleaming-crumble-fb130a.netlify.app/",
-			description: "Alerta peluda",
+			description:
+				"Alerta peluda / React JS, Bootstrap, Express, MongoDB, Cloudinary",
+		},
+		{
+			id: 3,
+			src: "https://subtle-rolypoly-be48ba.netlify.app/",
+			description: "Movie time / React JS, Bootstrap, Express, MongoDB",
+		},
+		{
+			id: 4,
+			src: "https://tuukulventas.wixsite.com/tuukultech",
+			description: "Tuukul Tech tienda en línea / Wix ",
 		},
 	]);
+
 	return (
-		<div>
+		<div className="endSpace">
 			<Description />
 			<InfoSection infoArray={CVInfo} sectionName={"Educacion"} />
 			<InfoSection infoArray={CVExperience} sectionName={"Experiencia"} />

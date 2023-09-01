@@ -7,7 +7,7 @@ const ProjectsSection = ({ sectionName, infoArray }) => {
 				<div className="col-6">
 					<h2>{sectionName}</h2>
 				</div>
-				<div className="col-6">
+				<div className="col-6 d-flex flex-column">
 					{infoArray.map((infoElement) => {
 						return (
 							<a
@@ -15,7 +15,7 @@ const ProjectsSection = ({ sectionName, infoArray }) => {
 								href={infoElement.src}
 								key={infoElement.id}
 								rel="noreferrer"
-								className="link"
+								className="link mb-2"
 							>
 								{infoElement.description}
 							</a>
