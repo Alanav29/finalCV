@@ -1,6 +1,7 @@
-import InfoSection from "../components/infoSection/infoSection";
-import ProjectsSection from "../components/proyectsSection/ProjectsSection";
-import Description from "../components/socialMediaSection/Description";
+/* eslint-disable no-unused-vars */
+import InfoSection from "../components/infoSection/InfoSection.jsx";
+import ProjectsSection from "../components/proyectsSection/ProjectsSection.jsx";
+import Description from "../components/socialMediaSection/Description.jsx";
 import { useState } from "react";
 
 const Home = () => {
