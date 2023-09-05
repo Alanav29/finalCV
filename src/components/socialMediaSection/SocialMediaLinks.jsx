@@ -17,7 +17,7 @@ const SocialMediaLinks = () => {
 				link={"mailto:josephalannavarro@gmail.com"}
 			/>
 			<SocialMediaIcon img={githubIcon} link={"https://github.com/Alanav29"} />
-			<SocialMediaIcon img={wpIcon} link={"https://github.com/Alanav29"} />
+			<SocialMediaIcon img={wpIcon} link={"https://wa.link/ep5s1e"} />
 			<SocialMediaIcon
 				img={linkedinIcon}
 				link={"https://www.linkedin.com/in/joseph-alan-navarro-57b34a244/"}
